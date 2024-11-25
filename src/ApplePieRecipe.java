@@ -1,16 +1,16 @@
 public class ApplePieRecipe {
-    Ingredient roomboter = new Ingredient(200,"gram","ongezouten roomboter");
-    Ingredient bastardSuiker = new Ingredient(200, "gram", "witte bastard suiker");
-    Ingredient bakmeel = new Ingredient(400, "gram", "zelfrijzend bakmeel");
-    Ingredient ei = new Ingredient(1,"stuk", "ei");
-    Ingredient vanillesuiker = new Ingredient(8, "gram", "vanillesuiker");
-    Ingredient zout = new Ingredient(1, "snuf","zout");
-    Ingredient zoetzureAppels = new Ingredient(1.5d, "kilo","zoetzure appels");
-    Ingredient kristalSuiker = new Ingredient(75,"gram","kristal suiker");
-    Ingredient kaneel = new Ingredient (3, "theelepels", "kaneel");
-    Ingredient paneermeel = new Ingredient (15,"gram", "paneermeel");
+    Ingredient roomboter = new Ingredient("200","gram","ongezouten roomboter");
+    Ingredient bastardSuiker = new Ingredient("200", "gram", "witte bastard suiker");
+    Ingredient bakmeel = new Ingredient("400", "gram", "zelfrijzend bakmeel");
+    Ingredient ei = new Ingredient("1","stuk", "ei");
+    Ingredient vanillesuiker = new Ingredient("8", "gram", "vanillesuiker");
+    Ingredient zout = new Ingredient("1", "snuf","zout");
+    Ingredient zoetzureAppels = new Ingredient("1.5", "kilo","zoetzure appels");
+    Ingredient kristalSuiker = new Ingredient("75","gram","kristal suiker");
+    Ingredient kaneel = new Ingredient ("3", "theelepels", "kaneel");
+    Ingredient paneermeel = new Ingredient ("15","gram", "paneermeel");
 
-    public void printIngedients(){
+    public void printIngredients(){
         System.out.println(roomboter.getAmount() + " " + roomboter.getUnit() + " " + roomboter.getName());
         System.out.println(bastardSuiker.getAmount() + " " + bastardSuiker.getUnit() + " " + bastardSuiker.getName());
         System.out.println(bakmeel.getAmount() + " " + bakmeel.getUnit() + " " + bakmeel.getName());
